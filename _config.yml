@@ -1,48 +1,52 @@
-# Setup
-title: Dark Poole
-url: https://kdg391.github.io
-paginate: 1
-baseurl: ""
-permalink: pretty
+title: Wendell Thomas
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://kdg391.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: ':title/'
+blog_theme: dark # Or use dark
 
-# Gems
-plugins:
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-seo-tag
+# Profile information
+name: Wendell Thomas
+tagline: Full Stack Developer
+about-description: # Add Discription
+pic: 79.jpg  # Place a 200x200 picture inside /assets/img/ folder and provide the name of the file below
 
-# Optimize Jekyll
+# Contact links
+email: artemsheludko@tuta.io # Add your Email address
+phone: 044 825 5523 # Add your Phone number
+website: artemsheludko.pw # Add your website, do not add http://
+linkedin: # Add your Linkedin handle
+github: artemsheludko # Add your Github handle
+twitter: '@artemsheludko_' # Add your Twitter handle
+
+# Tracker
+analytics:
+
+# Comments
+discus-identifier: # Add your Disqus identifier
+
+# Important settings
+assets:
+  sources:
+    - assets/fonts
+    - assets/img
+    - assets/js
+    - assets/stylesheets
+
+# Build settings
 exclude:
-  - .editorconfig
-  - .git
-  - .jekyll-cache
   - Gemfile
   - Gemfile.lock
-  - LICENSE.md
   - README.md
 
-sass:
-  sass_dir: _sass
-  style: :compressed
+gems:
+  - jekyll-feed
+  - jekyll-assets
+exclude:
+  - Gemfile
+  - Gemfile.lock
 
-# Options
-
-# Replace this value and uncomment to enable Google Analytics tracking
-# ga_analytics: UA-000000-0
-
-# Specify the author for blog posts
-author:
-  name: kdg391
-  url: https://github.com/kdg391
-  email: 
-
-# Custom vars
-version: 3.0.0
-
-# Navbar page list
-nav:
-  - title: Blog
-    url: /archive
-
-  - title: About
-    url: /about
+include: [_pages]
