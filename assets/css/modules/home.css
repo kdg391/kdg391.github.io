@@ -16,17 +16,16 @@
     font-size: 5rem;
     line-height: 1.1;
     text-align: center;
-    color: $page-title-color;
+    color: var(--page-title-color);
   }
 }
 
-// About
 .about {
   margin: 0 1rem;
   padding: 2rem;
-  background-color: $section-about-background;
-  border-top: 3px solid $border-color;
-  border-bottom: 3px solid $border-color;
+  background-color: var(--section-about-background);
+  border-top: 3px solid var(--border-color);
+  border-bottom: 3px solid var(--border-color);
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 
   .container-face {
@@ -34,28 +33,27 @@
     text-align: center;
   }
 
-
-  .tagline {
+  & .tagline {
     font-size: 1.1rem;
     text-align: center;
-    color: $about-tagline-color;
+    color: var(--about-tagline-color);
     letter-spacing: 5px;
     font-weight: 400;
     margin: 0 auto 2rem;
     max-width: 500px;
 
     &::after {
-      content: "";
+      content: '';
       display: block;
       width: 120px;
       height: 2px;
       margin: auto;
       margin-top: 0.9rem;
-      background-color: $about-tagline-border;
+      background-color: var(--about-tagline-border);
     }
   }
 
-  img.face {
+  & img.face {
     border-radius: 50%;
     width: 200px;
     max-width: 100%;
@@ -66,7 +64,6 @@
   margin-bottom: 2rem;
 }
 
-// Contact
 .contact-list {
   list-style: none;
   margin: 0;
@@ -80,12 +77,12 @@
       text-decoration: none;
       border-radius: 5px;
       display: block;
-      color: $contact-list-color;
+      color: var(--contact-list-color);
       padding: 0.5rem 0.8rem;
-      background-color: $body-background;
+      background-color: var(--body-background);
 
       &:hover {
-        opacity: .8;
+        opacity: 0.8;
         transform: translateX(3px);
       }
     }

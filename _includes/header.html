@@ -2,6 +2,13 @@
   <h1 class="logo">
     <a href="{{site.baseurl}}/" class="logo-link">{% if site.name %}{{site.name}}{% else %}Wendell Thomas{% endif %}</a>
   </h1>
+  <div>
+    <select id="theme-select">
+      <option value="light">Light</option>
+      <option value="dark">Dark</option>
+      <option value="system">System</option>
+    </select>
+  </div>
   <nav class="main-menu">
     <ul>
       <li><a href="{{site.baseurl}}/blog/">Blog</a></li>

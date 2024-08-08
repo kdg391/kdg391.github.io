@@ -1,0 +1,91 @@
+@import './base/base.css';
+
+@import './modules/blog.css';
+@import './modules/footer.css';
+@import './modules/header.css';
+@import './modules/home.css';
+@import './modules/media.css';
+@import './modules/post.css';
+
+@import './tools/normalize.css';
+
+:root {
+  color-scheme: light dark;
+  scrollbar-width: thin;
+
+  --dark: #181818;
+  --gray-500: #272727;
+  --gray-400: #323232;
+  --gray-300: #6f6f6f;
+  --gray-200: #c7c7c7;
+  --gray-100: #f3f3f3;
+  --white: #ffffff;
+  --primary: #89d4ff;
+
+  --base-font-size: 16px;
+  --base-line-height: 1.5;
+  --base-font-weight: 400;
+  --base-font-weight-bold: 700;
+}
+
+.light {
+  color-scheme: light;
+
+  --body-background: var(--gray-100);
+  --section-about-background: var(--white);
+  --contact-list-color: var(--dark);
+  --base-color: var(--gray-400);
+  --menu-color-link: var(--gray-200);
+  --menu-background-link-hover: var(--white);
+  --menu-color-link-hover: var(--gray-300);
+  --color-link: var(--gray-300);
+  --page-title-color: var(--gray-300);
+  --about-tagline-color: var(--gray-300);
+  --about-tagline-border: var(--gray-200);
+  --border-color: var(--white);
+
+  --post-box-background: var(--white);
+  --post-link-color: var(--gray-500);
+  --rss-subscribe-color: var(--white);
+  --rss-subscribe-hover: var(--gray-200);
+  --article-list-color: var(--gray-500);
+  --post-item-border: var(--gray-200);
+
+  --post-container-background: var(--white);
+  --article-border: var(--gray-100);
+
+  --blockquote-border: var(--gray-300);
+
+  --highlight-background: var(--gray-100);
+}
+
+.dark {
+  color-scheme: dark;
+
+  --body-background: var(--dark);
+  --section-about-background: var(--gray-500);
+  --contact-list-color: var(--white);
+  --base-color: var(--white);
+  --menu-color-link: var(--white);
+  --menu-background-link-hover: var(--primary);
+  --menu-color-link-hover: var(--dark);
+  --color-link: var(--gray-300);
+  --page-title-color: var(--white);
+  --about-tagline-color: var(--gray-300);
+  --about-tagline-border: var(--gray-400);
+  --border-color: var(--primary);
+
+  --post-box-background: var(--gray-500);
+  --post-link-color: var(--white);
+  --rss-subscribe-color: var(--gray-300);
+  --rss-subscribe-hover: var(--primary);
+  --article-list-color: var(--white);
+  --post-item-border: var(--gray-400);
+
+  --post-container-background: var(--gray-500);
+  --article-border: var(--gray-400);
+
+  --blockquote-border: var(--primary);
+
+  --highlight-background: var(--dark);
+}

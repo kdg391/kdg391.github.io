@@ -1,30 +1,22 @@
 title: kdg391
 description: > # this means to ignore newlines until "baseurl:"
   It's me
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://kdg391.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: ':title/'
-blog_theme: dark # Or use dark
 
 # Profile information
 name: kdg391
 tagline: Student Developer
 about-description: # Add Discription
-pic:  # Place a 200x200 picture inside /assets/img/ folder and provide the name of the file below
+pic: python.webp # Place a 200x200 picture inside /assets/img/ folder and provide the name of the file below
 
 # Contact links
 email: # Add your Email address
 phone: # Add your Phone number
-website: # Add your website, do not add http://
-linkedin: # Add your Linkedin handle
+website: # Add your website
 github: kdg391 # Add your Github handle
-twitter: # Add your Twitter handle
-
-# Tracker
-analytics:
-
-# Comments
-discus-identifier: # Add your Disqus identifier
+instagram: # Add your Twitter handle
 
 # Important settings
 assets:
