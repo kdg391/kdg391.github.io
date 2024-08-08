@@ -16,9 +16,6 @@ Create a new repository `[Your GitHub Username].github.io` in GitHub, and copy i
 
 Next, open the command prompt (or shell) and enter below:
 
-{% shiki sh %}git clone [Your GitHub Username].github.io
-{% endshiki %}
-
 And, move the files that you chose the theme into `[Your GitHub Username].github.io` directory.
 
 

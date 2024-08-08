@@ -11,7 +11,5 @@ date: 2024-08-08 +0900
 ```js
 const asdf = 1
 
-console.log(
-    asdf
-)
+console.log(asdf)
 ```
