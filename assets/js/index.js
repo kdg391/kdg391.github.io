@@ -1,7 +1,6 @@
-const themeSelect = document.getElementById('theme-select')
-
 const initTheme = localStorage.getItem('theme') ?? 'system'
 
+const themeSelect = document.getElementById('theme-select')
 themeSelect.value = initTheme
 
 const changeTheme = (t) => {
@@ -15,7 +14,7 @@ const changeTheme = (t) => {
     } else {
         localStorage.setItem('theme', t)
     }
-    
+
     document.documentElement.className = t
 }
 
