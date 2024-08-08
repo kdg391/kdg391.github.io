@@ -57,6 +57,14 @@
     border-radius: 50%;
     width: 200px;
     max-width: 100%;
+    animation: rotate 2.5s linear infinite;
+    transform-origin: 50% 50%;
+  }
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
   }
 }
 
